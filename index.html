@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Minus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="counter-value">
+        <p>In T-Minus how many seconds do you want to launch? (Within - 0-9 secs)</p>
+        <div id="input-range">
+            <input type="number" id="number" placeholder="Enter Number">
+            <button onclick="startCounter()">Start Ignition</button>
+        </div>
+    </div>
+
+    <div id="counter-container">
+        <div class="counter" id="first">
+            <p class="current">0</p>
+            <p class="next">1</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
